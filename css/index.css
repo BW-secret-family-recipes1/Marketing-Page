@@ -168,3 +168,52 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  background-color: #40E0D0;
+  display: flex ;
+  justify-content: space-between;
+}
+header .logo {
+  margin-left: 55px;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  padding-top: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #40E0D0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+}
+.indexone {
+  display: flex;
+  justify-content: center;
+  border: red 5px solid;
+}
+.indexone .pictureone {
+  width: 700px;
+  text-align: center;
+}
+.indexone .blurp {
+  text-align: center;
+  border: solid green 2px;
+  margin-right: 150px;
+  padding: 70px;
+}
+.indexone button {
+  background-color: #FF7F50;
+  width: 250px;
+  padding: 50px;
+  font-size: 40px;
+  border-radius: 40px;
+}
