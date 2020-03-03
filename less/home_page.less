@@ -1,0 +1,122 @@
+// Home Page Styles
+.topImgDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    height: 30vh;
+    margin: 3% 0;
+
+    @media @mobile {
+        margin: 8% 0;
+    }
+        
+    .topImg {
+       object-fit: contain;
+       width: 33%;
+       height: 100%;
+       border-radius: 50%;
+
+       @media @mobile {
+           width: 100%;
+           border-radius: 0;
+       }
+        
+    }
+
+    .img1 {
+        display: flex;
+
+        @media @mobile {
+            display: none;
+        }
+
+        @media @tablet {
+            display: none;
+        }
+        
+    }
+    
+    .img2 {
+        @media @tablet {
+            width: 45%;
+        }
+
+        @media @mobile {
+            width: 100%;
+        }
+    }
+
+    .img3 {
+        display: flex;
+
+        @media @mobile {
+            display: none;
+        }
+
+        @media @tablet {
+            width: 45%;
+        }
+    }
+}
+
+.topTextSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+
+    @media @mobile {
+        margin-bottom: 0;
+    }
+    
+    h2 {
+        text-align: center;
+
+        @media @mobile {
+            font-size: 4rem;
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        width: 50%;
+        margin: 0 auto; 
+        padding: 1.5% 0; 
+
+        @media @mobile {
+            font-size: 2.5rem;
+            width: 80%;
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        @media @tablet {
+            width: 80%;
+            text-align: center;
+            padding-top: 2%;
+
+        }
+    }
+}
+
+.videoSection {
+    @media @mobile {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .vid1 {
+        @media @mobile {
+            width: 100%;
+        }
+    
+    }
+    
+    .vid2 {
+        @media @mobile {
+            display: none;
+        }
+    }
+}
