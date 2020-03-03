@@ -198,22 +198,59 @@ footer {
 .indexone {
   display: flex;
   justify-content: center;
-  border: red 5px solid;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: #FF7F50 dotted 8px;
 }
 .indexone .pictureone {
-  width: 700px;
+  width: 850px;
   text-align: center;
 }
 .indexone .blurp {
   text-align: center;
-  border: solid green 2px;
-  margin-right: 150px;
   padding: 70px;
+  margin-top: 60px;
+}
+.indexone .blurp h2 {
+  font-size: 37px;
+}
+.indexone .blurp p {
+  font-size: 30px;
 }
 .indexone button {
   background-color: #FF7F50;
   width: 250px;
-  padding: 50px;
+  padding: 30px;
   font-size: 40px;
   border-radius: 40px;
+}
+.indextwo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: #FF7F50 dotted 8px;
+}
+.indextwo h2 {
+  font-size: 40px;
+}
+.indextwo p {
+  font-size: 20px;
+}
+.indexthree {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.indexthree .blurptwo {
+  text-align: center;
+  flex-direction: column;
+}
+.indexthree .blurptwo h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.indexthree .blurptwo p {
+  font-size: 20px;
 }
