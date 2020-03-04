@@ -254,3 +254,71 @@ footer {
 .indexthree .blurptwo p {
   font-size: 20px;
 }
+.topline {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px ;
+}
+.Aboutus {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Aboutus .Chelsea {
+  width: 500px;
+  text-align: center;
+}
+.Aboutus .Chelsea h2 {
+  font-size: 40px;
+}
+.Aboutus .Chelsea p {
+  font-size: 30px;
+}
+.Aboutus .Vanshika {
+  width: 500px;
+  text-align: center;
+}
+.Aboutus .Vanshika h2 {
+  font-size: 40px;
+}
+.Aboutus .Vanshika p {
+  font-size: 30px;
+}
+.Aboutus .Ricardo {
+  width: 500px;
+  text-align: center;
+}
+.Aboutus .Ricardo .ric {
+  width: 300px;
+}
+.Aboutus .Ricardo h2 {
+  font-size: 40px;
+}
+.Aboutus .Ricardo p {
+  font-size: 30px;
+}
+.Aboutus .Zoe {
+  width: 500px;
+  text-align: center;
+}
+.Aboutus .Zoe .zo {
+  width: 300px;
+}
+.Aboutus .Zoe h2 {
+  font-size: 40px;
+}
+.Aboutus .Zoe p {
+  font-size: 30px;
+}
+.Aboutus .Rodrigo {
+  width: 500px;
+  text-align: center;
+}
+.Aboutus .Rodrigo h2 {
+  font-size: 40px;
+}
+.Aboutus .Rodrigo p {
+  font-size: 30px;
+}
