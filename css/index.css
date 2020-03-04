@@ -134,14 +134,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cinzel', serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Cinzel', serif;
 }
 h1 {
   font-size: 4rem;
@@ -164,8 +164,7 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
-  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 header {
@@ -175,6 +174,11 @@ header {
 }
 header .logo {
   margin-left: 55px;
+}
+@media (max-width:500px) {
+  header .logo {
+    margin-left: 5px;
+  }
 }
 header nav {
   display: flex;
@@ -195,6 +199,12 @@ footer {
   color: white;
   padding: 30px;
 }
+@media (max-width:500px) {
+  footer h2 {
+    padding: 5px;
+    font-size: 20px;
+  }
+}
 .indexone {
   display: flex;
   justify-content: center;
@@ -202,9 +212,19 @@ footer {
   margin-top: 40px;
   border-bottom: #FF7F50 dotted 8px;
 }
+@media (max-width:500px) {
+  .indexone {
+    margin-top: 0;
+  }
+}
 .indexone .pictureone {
   width: 850px;
   text-align: center;
+}
+@media (max-width:500px) {
+  .indexone .pictureone {
+    display: none;
+  }
 }
 .indexone .blurp {
   text-align: center;
@@ -218,11 +238,22 @@ footer {
   font-size: 30px;
 }
 .indexone button {
+  color: #D3D3D3;
+  background-color: black;
   background-color: #FF7F50;
   width: 250px;
   padding: 30px;
   font-size: 40px;
   border-radius: 40px;
+}
+.indexone button:hover {
+  color: black;
+  background-color: #D3D3D3;
+}
+@media (max-width:500px) {
+  .indexone button {
+    width: 150px;
+  }
 }
 .indextwo {
   display: flex;
@@ -232,16 +263,38 @@ footer {
   margin-bottom: 40px;
   border-bottom: #FF7F50 dotted 8px;
 }
+@media (max-width:500px) {
+  .indextwo {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 .indextwo h2 {
   font-size: 40px;
 }
 .indextwo p {
   font-size: 20px;
 }
+@media (max-width:500px) {
+  .indextwo p {
+    font-size: 15px;
+  }
+}
 .indexthree {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+@media (max-width:500px) {
+  .indexthree {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width:500px) {
+  .indexthree .picturetwo {
+    display: none;
+  }
 }
 .indexthree .blurptwo {
   text-align: center;
@@ -254,6 +307,11 @@ footer {
 .indexthree .blurptwo p {
   font-size: 20px;
 }
+@media (max-width:500px) {
+  .indexthree .blurptwo p {
+    font-size: 15px;
+  }
+}
 .topline {
   display: flex;
   justify-content: center;
@@ -263,62 +321,131 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-left: 50px;
-  margin-right: 50px;
+  flex-wrap: wrap;
+  margin: 25px;
 }
 .Aboutus .Chelsea {
-  width: 500px;
+  width: 400px;
   text-align: center;
+}
+@media (max-width:500px) {
+  .Aboutus .Chelsea {
+    width: 200px;
+  }
 }
 .Aboutus .Chelsea h2 {
   font-size: 40px;
 }
+@media (max-width:500px) {
+  .Aboutus .Chelsea h2 {
+    font-size: 20px;
+  }
+}
 .Aboutus .Chelsea p {
   font-size: 30px;
 }
+@media (max-width:500px) {
+  .Aboutus .Chelsea p {
+    font-size: 15px;
+  }
+}
 .Aboutus .Vanshika {
-  width: 500px;
+  width: 400px;
   text-align: center;
+}
+@media (max-width:500px) {
+  .Aboutus .Vanshika {
+    width: 200px;
+  }
 }
 .Aboutus .Vanshika h2 {
   font-size: 40px;
 }
+@media (max-width:500px) {
+  .Aboutus .Vanshika h2 {
+    font-size: 20px;
+  }
+}
 .Aboutus .Vanshika p {
   font-size: 30px;
 }
+@media (max-width:500px) {
+  .Aboutus .Vanshika p {
+    font-size: 15px;
+  }
+}
 .Aboutus .Ricardo {
-  width: 500px;
+  width: 400px;
   text-align: center;
 }
-.Aboutus .Ricardo .ric {
-  width: 300px;
+@media (max-width:500px) {
+  .Aboutus .Ricardo {
+    width: 200px;
+  }
 }
 .Aboutus .Ricardo h2 {
   font-size: 40px;
 }
+@media (max-width:500px) {
+  .Aboutus .Ricardo h2 {
+    font-size: 20px;
+  }
+}
 .Aboutus .Ricardo p {
   font-size: 30px;
 }
+@media (max-width:500px) {
+  .Aboutus .Ricardo p {
+    font-size: 15px;
+  }
+}
 .Aboutus .Zoe {
-  width: 500px;
+  width: 400px;
   text-align: center;
 }
-.Aboutus .Zoe .zo {
-  width: 300px;
+@media (max-width:500px) {
+  .Aboutus .Zoe {
+    width: 200px;
+  }
 }
 .Aboutus .Zoe h2 {
   font-size: 40px;
 }
+@media (max-width:500px) {
+  .Aboutus .Zoe h2 {
+    font-size: 20px;
+  }
+}
 .Aboutus .Zoe p {
   font-size: 30px;
 }
+@media (max-width:500px) {
+  .Aboutus .Zoe p {
+    font-size: 15px;
+  }
+}
 .Aboutus .Rodrigo {
-  width: 500px;
+  width: 400px;
   text-align: center;
+}
+@media (max-width:500px) {
+  .Aboutus .Rodrigo {
+    width: 200px;
+  }
 }
 .Aboutus .Rodrigo h2 {
   font-size: 40px;
 }
+@media (max-width:500px) {
+  .Aboutus .Rodrigo h2 {
+    font-size: 20px;
+  }
+}
 .Aboutus .Rodrigo p {
   font-size: 30px;
+}
+@media (max-width:500px) {
+  .Aboutus .Rodrigo p {
+    font-size: 15px;
+  }
 }
