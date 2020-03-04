@@ -166,6 +166,7 @@ i {
 }
 .navDiv h1 {
   padding: 2% 0;
+  color: white;
 }
 @media (max-width: 500px) {
   .navDiv h1 {
