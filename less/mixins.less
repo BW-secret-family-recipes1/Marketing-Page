@@ -2,3 +2,25 @@
 .border {
     border-bottom: 5px solid @fontColor;
 }
+
+.global_btn (@btn-bg-color: @peach, @btn-font: @fontColor){
+    display: inline-block;
+    background-color: @btn-bg-color;
+    margin: 2% 0;
+    cursor: pointer;
+    width: 30%;
+    height: 5%;
+    font-size: 2.6rem;
+    border-radius: 5px;
+    color:@btn-font;
+    text-align: center;
+    padding: 1.5vh 0;
+
+    @media @mobile {
+        width: 80%;
+    }
+
+    @media @tablet {
+        width: 80%;
+    }
+}

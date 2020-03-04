@@ -153,6 +153,10 @@ p {
   font-size: 2.6rem;
   line-height: 1.4;
 }
+i {
+  font-weight: 400;
+  font-size: 2.6rem;
+}
 .navDiv {
   display: flex;
   flex-direction: column;
@@ -227,6 +231,7 @@ p {
 .navDiv .navBar nav a {
   font-size: 2.6rem;
   text-decoration: none;
+  padding: 0.5% 0;
 }
 @media (max-width: 500px) {
   .navDiv .navBar nav a {
@@ -308,6 +313,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-bottom: 2%;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .topTextSection {
@@ -343,6 +349,29 @@ p {
     padding-top: 2%;
   }
 }
+.topTextSection .btn {
+  display: inline-block;
+  background-color: #ffa483;
+  margin: 2% 0;
+  cursor: pointer;
+  width: 30%;
+  height: 5%;
+  font-size: 2.6rem;
+  border-radius: 5px;
+  color: #36454f;
+  text-align: center;
+  padding: 1.5vh 0;
+}
+@media (max-width: 500px) {
+  .topTextSection .btn {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .topTextSection .btn {
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   .videoSection {
     width: 90%;
@@ -358,6 +387,59 @@ p {
   .videoSection .vid2 {
     display: none;
   }
+}
+.teamSection .teamHeader {
+  text-align: center;
+  margin: 5vh 0;
+  font-weight: bold;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+.teamSection .teamGroup {
+  display: flex;
+  flex-direction: column;
+}
+.teamSection .teamGroup h2 {
+  text-align: center;
+  margin: 5vh 0 ;
+  font-weight: bold;
+}
+.teamSection .teamGroup .uiux {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .teamSection .teamGroup .uiux {
+    flex-direction: column-reverse;
+  }
+}
+.teamSection .teamGroup .frontEnd {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5vh;
+  border-bottom: 5px dashed #ffa483;
+}
+@media (max-width: 500px) {
+  .teamSection .teamGroup .frontEnd {
+    flex-direction: column-reverse;
+  }
+}
+.teamSection .teamGroup .backEnd {
+  padding-bottom: 5vh;
+  border-bottom: 5px dashed #ffa483;
+}
+.profileDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileDiv .profilePic {
+  width: 300px;
+  height: 30vh;
+}
+.profileDiv .githubIcon {
+  padding-bottom: 5vh;
 }
 footer {
   display: flex;
